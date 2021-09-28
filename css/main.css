@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border: 1px solid brown;
+}
+form > *{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+label{
+    color: brown;
+    font-size: 14px;
+    font-weight:bolder;
+    text-transform: uppercase;
+}
+button{
+    color: brown;
+    border-style: none;
+    padding: 5px 10px;
+    background-color:burlywood;
+}
+
